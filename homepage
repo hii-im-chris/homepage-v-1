@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Send A Message</title>
+    </head>
+    <body>
+        <h1>Send A Message</h1>
+        <form action="https://mailthis.to/you@mail.com"
+    method="POST" enctype="multipart/form-data">
+    <textarea name="message" placeholder="Enter your message here"></textarea>
+    <input type="hidden" name="_subject" value="Contact form submitted">
+    <input type="hidden" name="_after" value="https://myhomepage.net/">
+    <input type="hidden" name="_honeypot" value="">
+    <input type="hidden" name="_confirmation" value="">
+    <input type="submit" value="Send">
+</form>
+    
+    </body>
+</html>
